@@ -16,7 +16,17 @@ https://cdn.jsdelivr.net/gh/asmmbd/library@main/localdb.js
 const database = new Database()
 
 // Get data from local storage.
-
 const response = database.getDocument(collectionId, documentId)
+response.then(data => console.log(data))
 
+// Get all data from local storage.
+const response = database.listDocuments(collectionId)
+response.then(data => console.log(data))
+
+// Update data on local storage.
+const response = database.getDocument(collectionId, documentId, data)
+response.then(data => console.log(data))
+
+// Delete data from local storage.
+const response = database.deleteDocument(collectionId, documentId)
 response.then(data => console.log(data))
