@@ -1,4 +1,4 @@
-# localdb 
+## localdb 
 
 localdb is a JavaScript library for local storage.
 
@@ -7,8 +7,7 @@ localdb is a JavaScript library for local storage.
 Use localdb using cdn
 
 ```javascript
-https://cdn.jsdelivr.net/gh/asmmbd/library@main
-/localdb.js
+https://cdn.jsdelivr.net/gh/asmmbd/library@main/localdb.js
 ```
 
 ## Usage
